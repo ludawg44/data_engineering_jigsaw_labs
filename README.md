@@ -11,7 +11,9 @@
 
 
 # Functions 
+
 - Saving work with functions
+- Function arguments
 
 A **function** is a named sequence of statements that performs a computation. When you define a functionn, you specify the name and the sequence of statements. Later, you can "call" the function by name.
 
@@ -29,11 +31,11 @@ A **traceback**: A list of the functions that are executing, printed when an exc
 <function print_lyrics at 0xb7e99e9c>
 ``
 
-
-
-- Function arguments
-
 # Continuing Functions
-- Refeactor functions
+
+- Refactor functions
 - Keyword arguments and default arguments
+
+**refactoring**: The process of modifying a working program to improve functions interfaces and other qualities of the code. 
+
 
