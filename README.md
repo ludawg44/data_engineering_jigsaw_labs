@@ -8,6 +8,8 @@
 * Filtering and Sorting
 * [Functions](#functions)
 * [Continuing Functions](#continuing-functions)
+* [APIs and REST](#apis-and-rest)
+* [APIs and Python](#apis-
 
 
 # Functions 
@@ -39,3 +41,25 @@ A **traceback**: A list of the functions that are executing, printed when an exc
 **refactoring**: The process of modifying a working program to improve functions interfaces and other qualities of the code. 
 
 
+# APIs and REST
+
+ - Instant Data
+ - APIs in four lines
+ - Understanding URLs
+ - Exploring URLs lab
+ - Developer tools with APIs
+ - Requests and responses
+ 
+We went over the Google Books API and how it works. The main takeaway was to understand how and where to start the query in a URL. It will usually start with `?.`
+
+
+# APIs and Python
+
+- Query parameters lab
+- Calling APIs with Python
+
+# Foursquare API
+
+- Signing up for an API
+- Navigating the Foursquare API
+- Foursquare methods
