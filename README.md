@@ -66,4 +66,4 @@ We went over the Google Books API and how it works. The main takeaway was to und
 
 # Spotify API
 
-Even though this wasn't part of the lab, I did come upon a probelm that I would like highlighed. They're called nested dictionaries. View this YouTube video called [Python - Accessing Nested Dictionnary Keys](#https://www.youtube.com/watch?v=oQfNYqz8pLs). It does a really good job of explaining how to access values from nested dictionaries. 
+Even though this wasn't part of the lab, I did come upon a probelm that I would like highlighed. They're called nested dictionaries. View this YouTube video called [Python - Accessing Nested Dictionnary Keys](https://www.youtube.com/watch?v=oQfNYqz8pLs). It does a really good job of explaining how to access values from nested dictionaries. 
