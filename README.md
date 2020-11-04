@@ -12,6 +12,8 @@
 * [APIs and Python](#apis-and-python)
 * [Foursquare API](#foursquare-api)
 * [Spotify API](#spotify-api)
+* [Command Line](#command-line)
+* [Git and GitHub](#git-and-github)
 
 
 # Functions 
@@ -71,3 +73,7 @@ We went over the Google Books API and how it works. The main takeaway was to und
 Even though this wasn't part of the lab, I did come upon a probelm that I would like highlighed. They're called nested dictionaries. View this YouTube video called [Python - Accessing Nested Dictionnary Keys](https://www.youtube.com/watch?v=oQfNYqz8pLs). It does a really good job of explaining how to access values from nested dictionaries. 
 
 Apparently you can do a lot with the `import json` package. Check out this video [here](https://www.youtube.com/watch?v=1lxrb_ezP-g) titled "How to Write Python Scripts to Analyze JSON APIs and and if you have a lot of extra time you would watch this
+
+# Command Line
+
+# Git and GitHub
