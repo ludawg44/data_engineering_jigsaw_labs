@@ -124,4 +124,32 @@ You can even set an attribute when it is not present in Person
 
 You can check all the attributes of an object by using the `dir()` function. 
 
+One more thing to learn to set up mass assignment: kwargs
+
+`**kwargs` tells us we can pass through as many keyword arguments as wel like when creating a new class, in our example above we used Person. 
+
+    class User():
+     def __init__(self, **kwargs):
+      for key, value in kwargs.items():
+        setattr(self, key, value)
+
+    user = User(name='fred, birthday='8/3/2020')
+
+`kwargs.items()` will get you `kwargs = {'name':'fred', 'birthday':'8/3/2020'}`
+
+Because in script above can pass through any atribute, we need to raise an error for unwanted attributes. Let's rewrite the code from above: 
+
+class User():
+  __table__ = 'users'
+  
+  columns = ['id','name','birthday']
+  def __init__(self, **kwargs):
+    for key in kwargs.keys()
+      if key not in self.columns:
+         raise ValueError(f'{key} not in columns: {self.columns}')
+      for k, v in kwargs.items():
+        setattr(self, k, v)
+
+mass assignment in our classes -> **kwargs & setattr() function. 
+
 
