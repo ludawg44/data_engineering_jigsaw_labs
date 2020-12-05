@@ -139,16 +139,16 @@ One more thing to learn to set up mass assignment: kwargs
 
 Because in script above can pass through any atribute, we need to raise an error for unwanted attributes. Let's rewrite the code from above: 
 
-class User():
-  __table__ = 'users'
-  
-  columns = ['id','name','birthday']
-  def __init__(self, **kwargs):
-    for key in kwargs.keys()
-      if key not in self.columns:
-         raise ValueError(f'{key} not in columns: {self.columns}')
-      for k, v in kwargs.items():
-        setattr(self, k, v)
+    class User():
+      __table__ = 'users'
+
+      columns = ['id','name','birthday']
+      def __init__(self, **kwargs):
+        for key in kwargs.keys()
+          if key not in self.columns:
+             raise ValueError(f'{key} not in columns: {self.columns}')
+          for k, v in kwargs.items():
+            setattr(self, k, v)
 
 mass assignment in our classes -> **kwargs & setattr() function. 
 
