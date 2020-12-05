@@ -14,6 +14,16 @@
 * [Spotify API](#spotify-api)
 * [Command Line](#command-line)
 * [Git and GitHub](#git-and-github)
+* [Introducing Testing](#introducing-testing)
+* [Object Oriented Programming](#object-oriented-programming)
+* [Deeper with Objects](#deeper-with-objects)
+* [Object Properties](#object-properties)
+* [Object Relations and ETL](#object-relations-and-etl)
+* [SQL Fundamentals](#sql-fundamentals)
+* [Postgres](#postrges)
+* [Sampling Techniques](#sampling-techniques)
+* [Postgres and Python](#postgres-and-python)
+
 
 
 # Functions 
@@ -77,3 +87,18 @@ Apparently you can do a lot with the `import json` package. Check out this video
 # Command Line
 
 # Git and GitHub
+
+
+* [Introducing Testing](#introducing-testing)
+* [Object Oriented Programming](#object-oriented-programming)
+* [Deeper with Objects](#deeper-with-objects)
+* [Object Properties](#object-properties)
+* [Object Relations and ETL](#object-relations-and-etl)
+* [SQL Fundamentals](#sql-fundamentals)
+* [Postgres](#postrges)
+* [Sampling Techniques](#sampling-techniques)
+
+# Postgres and Python
+
+Mass assignment - we need to first learn: `setattr` (set attribute) method and access keyword arguments in Python. 
+
