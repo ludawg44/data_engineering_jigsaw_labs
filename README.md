@@ -100,5 +100,28 @@ Apparently you can do a lot with the `import json` package. Check out this video
 
 # Postgres and Python
 
-Mass assignment - we need to first learn: `setattr` (set attribute) method and access keyword arguments in Python. 
+Mass assignment - we need to first learn: `setattr` (set attribute) method and how to access keyword arguments in Python. 
+
+`setattr()` function sets the value of the attribute of an object. 
+
+`setattr(object, name, value)`
+
+    class Person:
+     name='Susan'
+
+    p = Person()
+    print('Before modification:', p.name)
+
+    # setting name to 'John'
+    setattr(p, 'name', 'John')
+
+    print('After modification:', p.name)
+    
+You can even set an attribute when it is not present in Person
+
+    setattr(p, 'age', 23)
+    print('Age is:', p.age)
+
+You can check all the attributes of an object by using the `dir()` function. 
+
 
